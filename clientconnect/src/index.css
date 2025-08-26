@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+--card: 18, 22, 39;
+}
+
+
+/* Grid/Glow Background */
+.bg-grid {
+background-image: radial-gradient(circle, rgba(77,255,255,0.12) 1px, transparent 1px);
+background-size: 24px 24px;
+}
+
+
+.card-glass {
+background: rgba(255, 255, 255, 0.04);
+border: 1px solid rgba(255, 255, 255, 0.06);
+backdrop-filter: blur(6px);
+}
+
+
+.scroll-smooth {
+scroll-behavior: smooth;
+}
+
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-neon-cyan {
+  color: #00ffff;
+}
+.text-neon-magenta {
+  color: #ff00ff;
+}
+.text-neon-yellow {
+  color: #ffcc00;
+}
+.card-glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+}
+.bg-grid {
+  background-image: radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
